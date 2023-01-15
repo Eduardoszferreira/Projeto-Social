@@ -40,8 +40,32 @@ section#telefone {
     background-repeat: no-repeat;
 
 }
-iframe#tela{position: relative;
-top:79px ;
-left:21px ;
-width:269px; 
-height:472px;}
+
+iframe#tela {
+    position: relative;
+    top: 79px;
+    left: 21px;
+    width: 269px;
+    height: 472px;
+}
+
+section#redes {
+    text-align: right;
+}
+
+section#redes img {
+    width: 45px;
+    margin: 10px;
+    border-radius: 90%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.76);
+    box-sizing: border-box;
+
+}
+
+section#redes img:hover {
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-3px, -3px);
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.705);
+    transition: transform 0.3s;
+
+}
