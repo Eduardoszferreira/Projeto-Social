@@ -40,3 +40,8 @@ section#telefone {
     background-repeat: no-repeat;
 
 }
+iframe#tela{position: relative;
+top:79px ;
+left:21px ;
+width:269px; 
+height:472px;}
